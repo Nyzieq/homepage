@@ -1,0 +1,27 @@
+.table {
+    border-collapse: separate;
+    width: 100%;
+    }
+
+.table__cell {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.table__header {
+    background-color: blue;
+    color: white;
+    font-weight: normal;
+}
+
+.table__row:nth-child(even) {
+    background-color: rgb(235, 233, 230);
+}
+
+.table__row:hover {
+    background-color: rgb(138, 137, 137);
+}
+
+.table__container {
+    overflow-x: auto;
+}
